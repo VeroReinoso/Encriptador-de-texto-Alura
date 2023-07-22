@@ -1,0 +1,143 @@
+body {
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  width: 90%;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.text-area {
+  border: none;
+  color: #0a3871;
+  background-color: #e5e5e5;
+  margin-top: 90px;
+  text-transform: lowercase;
+  resize: none;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+  font-size: 32px;
+}
+.sin-mensaje {
+  padding: 20px;
+  width: 600px;
+  height: auto;
+  padding-top: 60px;
+  background: white;
+  border: none;
+  border-radius: 24px;
+  color: #495057;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  resize: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+}
+
+.btn-desencriptar {
+  width: 328px;
+  height: 67px;
+  background-color: #d8dfe8;
+  border-color: #0a3871;
+  border-radius: 22px;
+  color: #0a3871;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-encriptar {
+  background-color: #0a3871;
+  border: none;
+  border-radius: 22px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  font-size: 16px;
+}
+
+.mensaje-encriptado{
+  align-items: center;
+  width: 600px;
+  height: auto;
+  padding-top: 80px;
+  background: white;
+  border: none;
+  border-radius: 24px;
+  color: #495057;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  resize: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.mensaje {
+  width: auto;
+  height:auto;
+  padding-top: 80px;
+  border: none;
+  border-radius: 24px;
+  color:#0a3871;
+  align-items: center;
+  resize: none;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+.mensaje:focus {
+  outline: none;
+}
+
+.btn-copiar {
+  border-radius: 22px;
+  background-color: white;
+  border-color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  height: 67px;
+  font-size: 16px;
+  margin-top: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.informacion {
+  color: #495057;
+  font-size: 16px;
+}
+
+footer {
+  text-align:center;
+  margin-left: 70px;
+  color: #495057;
+  font-size: 15px;
+}
+
+.ocultar {
+  display: none;
+}
